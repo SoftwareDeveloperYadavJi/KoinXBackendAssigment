@@ -1,4 +1,4 @@
-
+import Crypto from "../models/crypto.modle.js";
 
 export const stats =  async (req, res) => {
   const { coin } = req.query;
